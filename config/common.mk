@@ -42,6 +42,10 @@ PRODUCT_COPY_FILES += \
     vendor/omni/prebuilt/bin/blacklist:system/addon.d/blacklist \
     vendor/omni/prebuilt/bin/clean_cache.sh:system/bin/clean_cache.sh
 
+# Include GApps config
+PRODUCT_COPY_FILES += \
+    vendor/omni/prebuilt/install/gapps-config.txt:install/gapps-config.txt
+
 # Backup Services whitelist
 PRODUCT_COPY_FILES += \
     vendor/omni/prebuilt/etc/sysconfig/backup.xml:system/etc/sysconfig/backup.xml

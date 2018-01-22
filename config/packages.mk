@@ -12,6 +12,7 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     libcyanogen-dsp \
     Phonograph \
+    SnapdragonGallery \
     Turbo \
     MatLog
 
