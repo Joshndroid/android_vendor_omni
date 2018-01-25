@@ -16,6 +16,11 @@ PRODUCT_PACKAGES += \
     Turbo \
     MatLog
 
+# Build ParanoidCamera
+ifneq ($(TARGET_USES_AOSP_CAMERA),true)
+PRODUCT_PACKAGES += ParanoidCamera
+endif
+
 # Additional tools
 PRODUCT_PACKAGES += \
     bash \
