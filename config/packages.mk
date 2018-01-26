@@ -1,5 +1,6 @@
 # Additional apps
 PRODUCT_PACKAGES += \
+    AdAway \
     MonthCalendarWidget \
     OpenDelta \
     OmniSwitch \
