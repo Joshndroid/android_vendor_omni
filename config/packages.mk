@@ -15,7 +15,8 @@ PRODUCT_PACKAGES += \
     Phonograph \
     SnapdragonGallery \
     Turbo \
-    MatLog
+    MatLog \
+    OmniChange
 
 # Build ParanoidCamera
 ifneq ($(TARGET_USES_AOSP_CAMERA),true)
