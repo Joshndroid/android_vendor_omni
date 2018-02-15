@@ -63,7 +63,10 @@ PRODUCT_PACKAGES += \
     DarknessMeisterTheme \
     SmokedGreenTheme \
     Bl4ckAndYell0Theme \
-    OmniTheme
+    OmniTheme \
+    FromHellTheme \
+    GboardOmniTheme \
+    ZeroZeroTheme
 
 PRODUCT_PACKAGES += \
     Launcher3Dark
