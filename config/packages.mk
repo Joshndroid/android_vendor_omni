@@ -75,7 +75,10 @@ PRODUCT_PACKAGES += \
     AccentTeal \
     AccentFromHell \
     AccentBlueMonday \
-    AccentSmokingGreen
+    AccentSmokingGreen \
+    AccentDeadRed \
+    AccentRottenOrange \
+    AccentDeepPurple
 
 PRODUCT_PACKAGES += \
     PrimaryAlmostBlack \
@@ -104,6 +107,4 @@ PRODUCT_PACKAGES += \
     Launcher3Dark
 
 # for fun
-PRODUCT_PACKAGES += \
-    EggGame \
-    EasterFun
+PRODUCT_PACKAGES += EggGame
